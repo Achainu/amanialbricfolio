@@ -7,6 +7,8 @@ import Accueil from "./components/session/Accueil";
 import Apropos  from "./components/session/Apropos";
 import Projets  from "./components/session/Projets";
 import Contact from './components/session/Contact';
+import Footer from './components/session/footer';
+import { motion } from "framer-motion";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,6 +27,7 @@ function App() {
         <Apropos />
         <Projets />
         <Contact />
+        <Footer />
       </div>
     </>
   );

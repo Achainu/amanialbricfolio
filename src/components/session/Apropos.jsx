@@ -16,7 +16,7 @@ const apropos = () => {
   return (
     <div>
         <section
-      id="about"
+      id="apropos"
       className="min-h-screen flex items-center justify-center py-20"
     >
         <div className="max-w-3xl mx-auto px-4">
