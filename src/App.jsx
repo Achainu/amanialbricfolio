@@ -7,7 +7,7 @@ import Accueil from "./components/session/Accueil";
 import Apropos  from "./components/session/Apropos";
 import Projets  from "./components/session/Projets";
 import Contact from './components/session/Contact';
-import Footer from './components/session/footer';
+import Footer from './components/session/Footer';
 import { motion } from "framer-motion";
 
 function App() {
